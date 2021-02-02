@@ -1,0 +1,16 @@
+    INS 0 4 ;
+    OSC P5 P7 B2 F3 P30 ;
+    OSC P6 P7 B3 F4 P29 ;
+    AD2 B2 B3 B2 ;
+    MLT B2 V1 B3 ;
+    AD2 B2 V2 B2 ;
+    MLT P8 V3 B4 ;
+    OSC B4 V4 B4 F5 P28 ;
+    AD2 P8 B4 B4 ;
+    OSC B3 B5 B5 F2 V7 ; 
+    OSC B2 B4 B4 F1 V8 ;
+    MLT B2 B4 B4 ;
+    MLT B4 V6 B4 ;
+    OUT B4 B1 ;
+    END ;
+    

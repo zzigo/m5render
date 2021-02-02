@@ -1,0 +1,15 @@
+  COMMENT ---- RISSET'S  EXAMPLE #513 ---------------- ;
+  INS 0 1 ;
+  IOS P5 P7 B3 F2 P8 ;
+  IOS P6 P7 B4 F3 P9 ;
+  IOS B3 B4 B5 F1 P25 ; 
+  OUT B5 B1 ; 
+  END ;
+
+  GEN 0 2 1 512 1 1 ;
+  GEN 0 7 2 0 ; 
+  GEN 0 7 3 -10;
+  COMMENT ------- P6 and P7 CONVERTED TO SI (SUM) ----- ;
+  NOT 0 1 14 100 50 .0001 0 0 ;
+  NOT 0 1 14 100 50 .0001 51. 51.1 ;
+  TER 16 ;
